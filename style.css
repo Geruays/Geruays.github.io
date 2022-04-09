@@ -1,0 +1,20 @@
+body {
+  background: #000;
+  perspective: 800px;
+  
+  overflow: hidden;
+}
+
+.string {
+  position: absolute;
+  
+  font-family: 'PT Mono', monospace;
+  font-size: 28px;
+  font-weight: 800;
+  color: #34afaf;
+  white-space: pre;
+  
+/*   filter: blur(4px); */
+  user-select: none;
+  cursor: default;
+}
